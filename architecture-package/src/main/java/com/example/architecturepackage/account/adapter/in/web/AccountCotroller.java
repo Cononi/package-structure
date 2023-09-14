@@ -44,12 +44,12 @@ public class AccountCotroller {
 
     }
 
-    @PostMapping("/accounts/send/{sourceAccountId}/{targetAccountId}/{amount}")
-    public void sendMoney(
-            @PathVariable("sourceAccountId") Long sourceAccountId,
-            @PathVariable("targetAccountId") Long targetAccountId,
-            @PathVariable("amount") Long amount
-    ){
-
-    }
+//    @PostMapping("/accounts/send/{sourceAccountId}/{targetAccountId}/{amount}")
+//    public void sendMoney(
+//            @PathVariable("sourceAccountId") Long sourceAccountId,
+//            @PathVariable("targetAccountId") Long targetAccountId,
+//            @PathVariable("amount") Long amount
+//    ){
+//
+//    }
 }

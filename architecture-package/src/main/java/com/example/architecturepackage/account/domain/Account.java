@@ -58,6 +58,6 @@ public class Account {
     @Getter
     @RequiredArgsConstructor
     public static class AccountId {
-        private Long value;
+        private final Long value;
     }
 }
